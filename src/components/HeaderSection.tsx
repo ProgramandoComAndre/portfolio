@@ -10,6 +10,7 @@ function HeaderSection() {
           Junior Software Developer | .NET Core | Node.js | Estudante de Engenharia Informática
         </p>
 
+        <span>
         <div className="cv-button-container">
           <a
             href="/cv-andre-teixeira.pdf"
@@ -19,8 +20,17 @@ function HeaderSection() {
           >
             Ver Currículo (PDF)
           </a>
+          
+          <a href="https://www.linkedin.com/in/andreteixeira2002"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="linkedin-button">LinkedIn</a>
         </div>
+
+        
+        </span>
       </div>
+
 
       <div className="image-container">
         <img

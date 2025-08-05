@@ -55,7 +55,7 @@ body {
   margin-top: 1.5em;
 }
 
-.cv-button {
+.cv-button, .linkedin-button {
   display: inline-block;
   padding: 0.75em 1.5em;
   background-color: #007bff;
@@ -125,4 +125,56 @@ body {
 .video-card img {
   width: 100%;
   border-radius: 8px;
+}
+
+.starred-projects {
+  max-width: 1000px;
+  margin: 2em auto;
+  padding: 1em;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.repo-card {
+  flex: 1 1 300px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1em;
+  background: #fafafa;
+}
+
+.repo-card h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.repo-card a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.repo-card a:hover {
+  text-decoration: underline;
+}
+
+.repo-card p {
+  margin: 0.5em 0;
+  color: #444;
+}
+
+.linkedin-button {
+  margin-left: 2%;
+  background-color: #0077b5;
+  
+}
+
+.linkedin-button:hover {
+  background-color: #005f8d;
 }

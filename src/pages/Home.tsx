@@ -4,6 +4,7 @@ import PostPreview from "../components//PostPreview";
 import { type Post } from "../models/Post";
 import "./Home.css";
 import TopVideos from "../components/ChannelPreview";
+import StarredProjects from "../components/PersonalProjects";
 
 const API_KEY = import.meta.env.VITE_BLOGGER_API_KEY;
 function Home() {
@@ -32,6 +33,7 @@ function Home() {
       </section>
       <PostPreview posts={posts} />
       <TopVideos/>
+      <StarredProjects/>
     </>
   );
 }
